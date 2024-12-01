@@ -2,7 +2,6 @@ import { useState } from "react"
 import { v4 as uuidv4 } from 'uuid';
 
 function todoApp() {
-    // let [todos, setTodos] = useState([{ task: "sample", id: uuidv4(), isDone: false }]);
     let[todos,setTodos] = useState([]);
     let [newTodo, setNewTodo] = useState("");
 
